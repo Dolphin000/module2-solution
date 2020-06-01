@@ -88,27 +88,38 @@ p {
   top: -80px;
   left: 1093px;
 }
-@media screen and  (min-width: 992 px){
-#p1 {
+@media screen (min-width: 992 px){
+#p1, #p2, #p3 {
+	float: left;
 	 background-color: green;
-  width: 100px;
+
+}
+#p1 {
+	width:33.3%;
+}
+#p2 {
+	width:33.3%;
+}
+#p3 {
+	width:33.3%;
+}
+
+}	
+@media (min-width: 768 px) and (max-width: 991 px){
+#p1, #p2, #p3 {
+	float: left;
+	 background-color: green;
+
+}
+#p1 {
 	width:50%;
 }
 #p2 {
 	width:50%;
 }
 #p3 {
-	width:50%;
+	width:100%;
 }
-
-}	
-@media (min-width: 768 px) and (max-width: 991 px){
-#p3 {
-	position: absolute;
-  top: 350px;
-  left: 325px;
-}
-
 }
 @media (max-width: 767 px){
 
